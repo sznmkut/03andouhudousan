@@ -1,0 +1,59 @@
+/* あおぞら明朝 Bold フォントを読み込み */
+@font-face {
+  font-family: "Aozora Mincho";
+  src: url("fonts/AozoraMincho-bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+body {
+  font-family: "Aozora Mincho", serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #9dddff;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.property h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #00274d;
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #00cc88;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
